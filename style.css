@@ -1,0 +1,580 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+}
+#main{
+     
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    
+}
+
+#top{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 50%;
+    background-color:#fff;
+}
+
+
+#bottom{
+    display: flex;
+    width: 100%;
+    height: 50%;
+    background-color:purple;
+}
+#left{
+    position: relative;
+    width: 65%;
+    height: 100%;
+    background-color: #fff;
+    font-family: Gilroy;
+}
+#left h2{
+    position: absolute;
+    top: 62%;
+    right: 0%;
+    letter-spacing: 4px;
+    transform:rotate(270deg);
+    font-family: Gilroy;
+    font-size: 11px;
+
+}
+
+#left #spread{
+    position: absolute;
+    top: 25%;
+    left: 7%;
+    font-size: 40px;
+    color: black;
+    font-family: Gilroy;
+    }
+#left #send{
+    position: absolute;
+    top: 35%;
+    left: 7%;
+    font-size: 40px;
+    color: black;
+    font-family: Gilroy;
+
+}
+#left h3{
+    position: absolute;
+    top: 17%;
+    left: 10%;
+    font-size: 15px;
+    color: black;
+    font-family: Gilroy;
+    letter-spacing: 4px;
+
+}
+#left #one{
+    position: absolute;
+    bottom: 25%;
+    letter-spacing: 2px;
+    left: 7%;
+}
+#left #two{
+    position: absolute;
+    bottom: 25%;
+    letter-spacing: 2px;
+    left: 30%;
+}
+#left #ten{
+    position: absolute;
+    bottom: 25%;
+    letter-spacing: 2px;
+    left: 57%;
+}
+#left #three{
+    position: absolute;
+    bottom: 20%;
+    letter-spacing: .1px;
+    left: 7%;
+    color: rgb(100, 99, 99);
+   font-weight: 600; 
+   font-family: Gilroy;
+   font-size: 13px;
+}
+
+#left #five{
+    position: absolute;
+    bottom: 20%;
+    letter-spacing: .1px;
+    left: 30%;
+    color:rgb(100, 99, 99);
+    font-weight: 600; 
+    font-family: Gilroy;
+    font-size: 13px;
+    
+}
+#left #six{
+    position: absolute;
+    bottom: 15%;
+    letter-spacing: .1px;
+    left: 30%;
+    color: rgb(100, 99, 99);
+    font-weight: 600; 
+    font-family: Gilroy;
+    font-size: 13px;
+}
+#left #eleven{
+    position: absolute;
+    bottom: 15%;
+    letter-spacing: .1px;
+    left: 57%;
+    color: rgb(100, 99, 99);
+    font-weight: 600; 
+    font-family: Gilroy;
+    font-size: 13px;
+}
+#left #twelve{
+    position: absolute;
+    bottom: 20%;
+    letter-spacing: .1px;
+    left: 57%;
+    color: rgb(100, 99, 99);
+    font-weight: 600; 
+    font-family: Gilroy;
+    font-size: 13px;
+}
+#left #four{
+    position: absolute;
+    bottom: 15%;
+    letter-spacing: .1px;
+    left: 7%;
+    color: rgb(100, 99, 99);
+    font-weight: 600; 
+    font-family: Gilroy;
+    font-size: 13px; 
+}
+ #right{
+        position: relative;
+        width: 35%;
+        height: 100%;
+        background-color: blue;
+}
+#right #up{
+  position: relative;
+    width: 100%;
+    height: 75%;
+    background-image: url(https://images.unsplash.com/photo-1563426359222-58f8ab2d20ec?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+    background-position: center;
+    background-blend-mode: darken;
+    background-color:rgba(0, 0, 0, 0.445);
+    background-size: cover;
+    z-index: 1;
+}
+#right #down{
+    display: flex;
+    width: 100%;
+    height: 25%;
+    background-color: #222;
+}
+#down1{
+    width: 25%;
+    height: 100%;
+    background-image: url(https://images.unsplash.com/photo-1519241923167-9c69efe2d7b6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=401&q=80);
+    background-position: bottom;
+    background-size: cover;
+}
+#down2{
+    width: 50%;
+    height: 100%;
+    background-image: url(https://media.istockphoto.com/photos/natural-green-succulents-cactus-haworthia-attenuata-in-white-on-picture-id1090442826?b=1&k=20&m=1090442826&s=170667a&w=0&h=aDfu6tceqa_Bkx0Lh5ZtJ4SOmQYPsbTOfCQVlr2Xozo=);
+    background-position: center;
+    background-size: cover;
+}
+#down3{
+    width: 25%;
+    height: 100%;
+    background-image: url(https://images.unsplash.com/photo-1590656114852-1a90e89aa839?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+    background-size: cover;
+    background-position: bottom;
+}
+#up #circle{
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 40px;
+    height: 40px;
+    background-color:#ffffffff;
+    
+    border-radius: 20px;
+   
+    z-index: 99;
+}
+
+#up #circle1{
+    z-index: 9;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 60px;
+    height: 60px;
+    background-color:rgba(255, 255, 255, 0.541);
+    border-radius: 30px;
+    
+} 
+#up h5{
+    position: absolute;
+    bottom: 15%;
+    left: 5%;
+    font-size: 10px;
+    font-family: Gilroy;
+    color: #ffffff;
+    letter-spacing: 4px;
+} 
+#up h6{
+    position: absolute;
+    top: 55%;
+    right:-50px ;
+    letter-spacing: 4px;
+    transform:rotate(90deg);
+    font-family: Gilroy;
+    font-size: 9px;
+    color: #ffffff;
+}
+
+#right i{
+    position: absolute;
+    color: rgb(92, 81, 81);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 9;
+}
+#first{
+    position: relative;
+    width: 30%;
+    height: 100%;
+  background-image: url(https://images.unsplash.com/photo-1620127807580-990c3ecebd14?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTI1fHxwbGFudHN8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60);
+  background-position: center;
+  background-size: cover;
+}
+#number{
+    display: flex;
+    position: absolute;
+    bottom: 17%;
+    left: 15%;
+    font-family: Gilroy;
+    font-size: 12px;
+    font-weight: large;
+    color: black;
+}
+#first #icon{
+    position: absolute;
+    right: 15%;
+    bottom: 5%;
+    font-size: 40px;
+    color: black;
+}
+
+
+#rectangle{
+   
+   position: absolute;
+   bottom: 15%;
+   left: 50%;
+   transform: translate(-50%,0%);
+    width: 70%;
+    height: 8px;
+    background-color: rgba(0, 0, 0, 0.295);
+}
+#rectangle1{
+   
+   position: absolute;
+    width: 80%;
+    height: 8px;
+    background-color:#ffffff;
+}
+#location{
+    display: flex;
+    position: absolute;
+    top: 2%;
+    left: 2%;
+}
+#location #one{
+  
+    font-size: 12px;
+    font-family: Gilroy;
+    font-weight: 600;
+}
+#location #two{
+    position: absolute;
+    font-size: 5px;
+    top: 2px;
+    right: -7px;
+    font-family: Gilroy;
+    font-weight: 600;
+}
+#second{
+    position: relative;
+    width: 50%;
+    height: 100%;
+    background-color:rgb(87, 13, 39);
+}
+#second h6{
+    position: absolute;
+    top: 25%;
+     right: -30px;
+    padding: 120px 0px;
+    font-family: Gilroy;
+    font-size: 10px;
+    color: rgba(255, 255, 255, 0.918);
+    transform: rotate(90deg);
+    letter-spacing: 6px;
+  
+}
+
+
+#second i{
+    position: absolute;
+    right: 5%;
+    top: 5%;
+    color: #fff;
+    
+}
+#second h5{
+    position: absolute;
+    top: 5%;
+    right: 10%;
+    font-size: 15px;
+    letter-spacing: 2px;
+    color: #fff;
+    font-family: Gilroy;
+}
+#second h2{
+    position: absolute;
+    bottom:17% ;
+    left: 5%;
+    font-family: Gilroy;
+    font-size: 35px;
+    color: rgba(255, 255, 255, 0.925);
+}
+#second h4{
+    position: absolute;
+    top: 7%;
+    left: 5%;
+    color: #fff;
+    font-family: Gilroy;
+    font-size: 15px;
+    letter-spacing: 2px;
+    font-weight: 500;
+}
+
+#second #one{
+    position: absolute;
+   bottom: 10%;
+    left: 5%;
+    font-family: Gilroy;
+    font-size: 10px;
+    color: rgb(199, 191, 191);
+}
+#second #two{
+    position: absolute;
+   bottom: 6%;
+    left: 5%;
+    font-family: Gilroy;
+    font-size: 10px;
+    color: rgb(199, 191, 191);
+
+}
+#top #third{
+    position: relative;
+    width: 20%;
+    height: 100%;
+    background-color: #fff;
+}
+#third h4{
+    position: absolute;
+   left: 80%;
+    top: 12%;
+    font-family: Gilroy;
+    font-size: 10px;
+    color: black;
+    transform: rotate(90deg);
+    letter-spacing: 6px;
+}
+#third #one{
+    position: absolute;
+    bottom: 10%;
+    right: 30%;
+    color: black;
+    font-size: 60px;
+    font-family: Compacta Std;
+    font-weight: large;
+}
+
+#third #two{
+    position: absolute;
+    bottom: 10%;
+    right: 9%;
+    color: black;
+    font-size: 60px;
+    font-family: Gilroy;
+    font-weight: 700;
+}
+#third h5{
+    position: absolute;
+    bottom: 8%;
+    right: 5%;
+    color: rgb(31, 29, 29);
+    font-size: 10px;
+    font-family: Gilroy;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+#third h6{
+    position: absolute;
+    top: 8%;
+    left: 12%;
+    color: rgb(31, 29, 29);
+    font-size: 10px;
+    font-family: Gilroy;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+#circle3{
+    position: absolute;
+    top: 40%;
+    left: 5%;
+   
+    width: 100px;
+    height: 100px;
+    background-color:rgba(255, 255, 255, 0);
+    border-radius: 50px;
+    border-top: .2px solid #fff;
+    border-bottom: .2px solid #fff;
+    border-left: .2px solid #fff;
+    border-right: .2px solid #fff;
+}
+
+
+#circle3 img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 60px;
+    height: 60px;
+  
+    
+}
+#left #spread:hover{
+    color:transparent;
+    -webkit-text-stroke: 1.4px rgba(0, 0, 0, 0.329);
+}
+#left #send:hover{
+    color:transparent;
+    -webkit-text-stroke: 1.4px rgba(0, 0, 0, 0.329);
+}
+#left h3:hover{
+    color:transparent;
+    -webkit-text-stroke: 1px rgba(0, 0, 0, 0.301);
+}
+#second h2:hover{
+    color: rgba(11, 4, 20, 0.678);
+    -webkit-text-stroke: 1px rgba(8, 5, 12, 0.603);
+}
+#second h5:hover{
+    color: rgba(11, 4, 20, 0.678);
+    -webkit-text-stroke: 1px rgba(8, 5, 12, 0.603);
+}
+#second h6:hover{
+    color: rgba(11, 4, 20, 0.678);
+    -webkit-text-stroke: 1px rgba(8, 5, 12, 0.603);
+}
+#second h4:hover{
+    color: rgba(11, 4, 20, 0.678);
+    -webkit-text-stroke: 1px rgba(8, 5, 12, 0.603);
+}
+#second #one:hover{
+    color: rgba(11, 4, 20, 0.678);
+    -webkit-text-stroke: 1px rgba(8, 5, 12, 0.822);
+}
+#second #two:hover{
+    color: rgba(11, 4, 20, 0.678);
+    -webkit-text-stroke: 1px rgba(8, 5, 12, 0.822);
+}
+#up #circle1:hover{
+    cursor: pointer;
+   
+}
+#up #circle:hover{
+    cursor: pointer;
+    
+}
+#rectangle:hover{
+    background-color: rgba(0, 0, 0, 0.521);
+}
+#rectangle1:hover{
+    background-color: black;
+}
+#right h5:hover{
+        color: rgba(11, 4, 20, 0.678);
+        -webkit-text-stroke: 1px rgba(15, 15, 61, 0.438);
+}
+#right h6:hover{
+        color: rgba(11, 4, 20, 0.678);
+        -webkit-text-stroke: 1px rgba(8, 5, 12, 0.603);
+}
+#third #one:hover{
+    color: rgb(6, 6, 71);
+    -webkit-text-stroke: 1px rgba(4, 4, 39, 0.712);
+}
+#third #two:hover{
+    color: rgb(6, 6, 71);
+    -webkit-text-stroke: 1px rgba(4, 4, 39, 0.712);
+}
+#third h5:hover{
+    color: rgb(6, 6, 71);
+    -webkit-text-stroke: 1px rgba(8, 8, 39, 0.712);
+}
+#third h6:hover{
+    color: rgb(6, 6, 71);
+    -webkit-text-stroke: 1px rgba(8, 8, 39, 0.712);
+}
+#third h4:hover{
+    color: rgb(6, 6, 71);
+    -webkit-text-stroke: 1px rgba(8, 8, 39, 0.712);
+}
+#left #seven {
+    position: absolute;
+    right: 5%;
+    top: 20%;
+}
+#left #eight {
+    position: absolute;
+    right: 5%;
+    top: 30%;
+}
+#left #nine {
+    position: absolute;
+    right: 5%;
+    top: 40%;
+}
+#left h4 {
+    position: absolute;
+    right: 5%;
+    color: black;
+    top: 50%;
+    font-size: 12px;
+    font-family: gilroy;
+
+}
+
+
+
